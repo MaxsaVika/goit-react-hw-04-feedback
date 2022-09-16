@@ -37,7 +37,7 @@ export const theme = Object.freeze({
   },
   radii: {
     none: '0',
-    card: '6px',
+    card: '3px',
     round: '50%',
   },
   shadows: {
