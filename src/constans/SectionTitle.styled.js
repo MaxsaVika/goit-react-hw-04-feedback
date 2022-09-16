@@ -4,6 +4,7 @@ export const SectionTitle = styled.h2`
   margin: ${p => p.theme.space[1]};
   margin-bottom: ${p => p.theme.space[5]};
   font-size: ${p => p.theme.fontSizes.xxl};
+  word-spacing: 6px;
   text-align: center;
   text-transform: uppercase;
   color: ${p => p.theme.colors.darkText};
