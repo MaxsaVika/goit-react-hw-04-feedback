@@ -11,12 +11,13 @@ export const theme = Object.freeze({
     good: '#f7b04f',
     neutral: '#60784c',
     bad: '#7d3057',
+    btn: '#7d3057',
   },
   space: [0, '2px', '4px', '8px', '16px', '32px', '64px', '128px', '256px'],
   sizes: {
     feedbackItem: '100px',
-    feedbackBtnW: '90px',
-    feedbackBtnH: '25px',
+    feedbackBtnW: '120px',
+    feedbackBtnH: '35px',
     statList: '250px',
   },
   fontSizes: {

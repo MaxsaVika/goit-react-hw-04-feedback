@@ -12,7 +12,7 @@ export const FeedbackItem = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: ${p => p.theme.sizes.feedbackItem};
+  /* width: ${p => p.theme.sizes.feedbackItem}; */
   padding: ${p => p.theme.space[4]};
 `;
 
@@ -20,8 +20,9 @@ export const FeedbackBtn = styled.button`
   width: ${p => p.theme.sizes.feedbackBtnW};
   height: ${p => p.theme.sizes.feedbackBtnH};
   background-color: ${p => p.backgroundColor};
-  color: ${p => p.theme.colors.darkText};
+  color: ${p => p.theme.colors.whiteText};
   font-weight: ${p => p.theme.fontWeights.semiBold};
+  text-transform: uppercase;
   border: none;
   border-radius: ${p => p.theme.radii.card};
   box-shadow: ${p => p.theme.shadows.text};

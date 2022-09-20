@@ -44,6 +44,7 @@ class Feedback extends Component {
             <>
             <FeedbackSection title = "Please leave feedback" >
                 <FeedbackAction 
+                    options={Object.keys(this.state)}
                     onLeaveFeedback = {this.leaveFeedback}/>
             </FeedbackSection>
             
@@ -63,3 +64,4 @@ class Feedback extends Component {
 }
 
 export default Feedback
+
