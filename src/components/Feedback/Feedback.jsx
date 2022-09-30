@@ -31,7 +31,6 @@ export default function Feedback() {
 
     const total = countTotalFeedback();
 
-
     const countPositiveFeedbackPercentage = () => { 
         if (!total) {
             return 0
@@ -57,8 +56,7 @@ export default function Feedback() {
                     bad = {bad}
                     total = {total}
                     positivePercentage={countPositiveFeedbackPercentage()}/>}
-            </FeedbackSection>
-                    
+            </FeedbackSection>                    
         </>
     )
 }
